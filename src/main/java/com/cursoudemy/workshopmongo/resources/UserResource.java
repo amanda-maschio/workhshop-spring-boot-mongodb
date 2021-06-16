@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,11 +33,7 @@ public class UserResource {
 		for (int i = 0; i < list.size(); i++) {
 
 			User user = list.get(i);
-			UserDTO userDTO = new UserDTO();
-
-			userDTO.setId(user.getId());
-			userDTO.setName(user.getName());
-			userDTO.setEmail(user.getEmail());
+			UserDTO userDTO = new UserDTO(user);
 
 			listDTO.add(userDTO);
 		}
@@ -45,5 +42,14 @@ public class UserResource {
 		// list.stream().map(x -> new UserDTO(x)).collect(Collectors.toList());
 		
 		return ResponseEntity.ok().body(listDTO);
+	}
+	
+	@RequestMapping(value="/{id}", method = RequestMethod.GET)
+	public ResponseEntity<UserDTO> findById(@PathVariable String id) {
+		
+		User obj = service.findById(id);
+	
+		return ResponseEntity.ok().body(new UserDTO(obj));
+
 	}
 }
