@@ -1,12 +1,9 @@
 package com.cursoudemy.workshopmongo.config;
 
-import java.util.Arrays;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import com.cursoudemy.workshopmongo.domain.User;
 import com.cursoudemy.workshopmongo.repository.UserRepository;
 
 //Referente a classe de configuração
