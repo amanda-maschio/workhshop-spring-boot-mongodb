@@ -1,5 +1,5 @@
 # UDEMY - Java COMPLETO Programação Orientada a Objetos +Projetos - Projeto MongoDB com Spring Boot
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/amanda-maschio/workshop-spring-boot-mongodb/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/amanda-maschio/workshop-spring-boot-mongodb/blob/main/LICENSE)
 
 # Sobre o projeto
 
