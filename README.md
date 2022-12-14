@@ -22,8 +22,19 @@ O Sistema tem como objetivo implementar uma API Rest que realiza operações de 
 
 # Autor
 
-Amanda Maschio - https://www.linkedin.com/in/amanda-maschio-272783186/
+<a href="https://github.com/amanda-maschio">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/65790874?v=4" width="100px;" alt="Amanda Maschio" title="Amanda Maschio"/>
+</a>
+<p>Amanda Maschio</p>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Amanda-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amanda-maschio-272783186/)](https://www.linkedin.com/in/amanda-maschio-272783186/) 
 
 # Professor
 
-Nélio Alves
+<a href="https://github.com/acenelio">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/13897257?v=4" width="100px;" alt="William da Silva" title="Nelio Alves"/>
+</a>
+<p>Nelio Alves</p>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Nelio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nelio-alves/)](https://www.linkedin.com/in/nelio-alves/) 
+
